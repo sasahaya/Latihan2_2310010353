@@ -2,13 +2,13 @@
 package latihan2;
 
 public class DataDiri {
-    String nama,kelas;
-    int npm;
+    private String nama,npm;
+    private String kelas;
     
-    public DataDiri(String nama, String Kelas, int npm){
+    public DataDiri(String nama, String npm, String kelas){
         this.nama = nama;
-        this.kelas = kelas;
         this.npm = npm;
+        this.kelas = kelas;
     }
     
     public void tampilkanInfo() {
